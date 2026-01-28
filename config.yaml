@@ -1,0 +1,10 @@
+model_paths:
+  url_expert: "models/url_expert.pkl"
+  text_model: "models/distilbert_phishing_model"
+  gating_network: "models/gating_network.pth"
+
+parameters:
+  max_text_length: 128
+  phishing_threshold: 0.6
+  confidence_threshold: 0.8
+  device: "cpu"
